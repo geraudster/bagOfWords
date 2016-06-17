@@ -9,3 +9,4 @@ License: LGPL
 LazyData: TRUE
 RoxygenNote: 5.0.1
 Imports: data.table, plyr, dplyr, magrittr, flexclust
+Suggests: testthat
