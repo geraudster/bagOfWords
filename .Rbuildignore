@@ -3,4 +3,4 @@
 ^\.Rprofile$
 .travis.yml
 ^packrat/
-^*_cache
+^.*_cache
