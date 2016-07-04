@@ -1,6 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^.*packrat/
 ^\.Rprofile$
 .travis.yml
 ^packrat/
+^*_cache
