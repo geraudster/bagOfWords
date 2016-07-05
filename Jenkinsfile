@@ -1,3 +1,4 @@
+node("linux && docker") {
     docker.image('rocker/hadleyverse').inside {
         stage 'Clean'
         sh 'rm -rf packrat/lib* *.Rcheck bagOfWords-*.tar.gz'
@@ -19,4 +20,4 @@ source("packrat/init.R")
         stage 'Get Results'
         archive 'bagOfWords-*.tar.gz'
     }
-
+}
