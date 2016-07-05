@@ -4,3 +4,5 @@
 .travis.yml
 ^packrat/
 ^.*_cache
+*.tar.gz
+Jenkinsfile
