@@ -1,5 +1,6 @@
 node("linux && docker") {
     docker.image('rocker/hadleyverse').inside {
+	checkout scm
         stage 'Clean'
         sh 'rm -rf packrat/lib* *.Rcheck bagOfWords-*.tar.gz'
         
